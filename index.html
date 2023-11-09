@@ -5,69 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Interpret games</title>
 
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.css"
+      rel="stylesheet"
+    />
     <link href="./dist/output.css" rel="stylesheet" />
   </head>
 
   <body class="bg-white">
-    <div class="container flex flex-col mx-auto bg-white">
+    <div class="flex flex-col mx-auto bg-white max-w-2xl">
       <div
         class="relative flex flex-wrap items-center justify-between w-full bg-white group py-7 shrink-0"
       >
         <div>
-          <img
-            class="h-8"
-            src="https://raw.githubusercontent.com/Loopple/loopple-public-assets/main/motion-tailwind/img/logos/logo-nav-0.png"
-          />
+          <img class="h-12" src="./images/interpret_logo_with_cat.png" />
         </div>
-        <div
-          class="items-center justify-between gap-12 text-black md:flex"
-        >
-          
-          <a
+        <div class="items-center justify-between gap-12 text-black md:flex">
+          <!-- <a
             class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900"
             href="javascript:void(0)"
             >회사</a
-          >
+          > -->
         </div>
-        
+      </div>
+
       <div
         class="grid w-full grid-cols-1 my-auto mt-12 mb-8 md:grid-cols-2 xl:gap-14 md:gap-5"
       >
         <div
           class="flex flex-col justify-center col-span-1 text-center lg:text-start"
         >
+          <div
+            class="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"
+          >
+            <span
+              class="text-transparent bg-clip-text bg-gradient-to-r to-red-600 from-pink-400"
+              >Interpret</span
+            >
+            games
+          </div>
           <div class="flex items-center justify-center mb-4 lg:justify-normal">
-            <img
-              class="h-5"
-              src="https://raw.githubusercontent.com/Loopple/loopple-public-assets/main/motion-tailwind/img/logos/logo-1.png"
-              alt="logo"
-            />
+            <img class="h-5" src="./images/cat_laying.png" alt="logo" />
             <h4
               class="ml-2 text-sm font-bold tracking-widest text-primary uppercase"
             >
-              재미있는
+              <div>저희는 레트로 멀티플레이 HTML5 게임을 만듭니다.</div>
             </h4>
           </div>
-          <h1
-            class="mb-8 text-4xl font-extrabold leading-tight lg:text-6xl text-dark-grey-900"
-          >
-            게임을 만듭니다
-          </h1>
-          <p
+          <div class="flex items-center justify-center mb-4 lg:justify-normal">
+            <div>We create retro multiplayer HTML5 games.</div>
+          </div>
+          <div
             class="mb-6 text-base font-normal leading-7 lg:w-3/4 text-grey-900"
           >
-            Say goodbye to endless hours spent on building templates from
-            scratch. Experience the quickest, most responsive, and trendiest
-            dashboard solution available. Seriously.
-          </p>
+            간결하고 귀엽고 밝은 게임을 만듭니다. 멀티플레이로 다른 유저와
+            친숙하고, 함께 즐기는 경험을 드리고 싶습니다.
+          </div>
+          <div>
+            We create simple, cute, and bright games. We aim to provide a
+            multiplayer experience where users can interact with each other and
+            enjoy the game together.
+          </div>
           <div class="flex flex-col items-center gap-4 lg:flex-row">
             <button
-              class="flex items-center py-4 text-sm font-bold text-white px-7 bg-purple-blue-500 hover:bg-purple-blue-600 focus:ring-4 focus:ring-purple-blue-100 transition duration-300 rounded-xl"
-            >
-              Get started now
-            </button>
-            <button
-              class="flex items-center py-4 text-sm font-medium px-7 text-dark-grey-700 hover:text-dark-grey-900 transition duration-300 rounded-2xl"
+              class="hover:bg-blue-500 flex items-center py-4 text-sm font-medium px-7 text-dark-grey-300 hover:text-dark-grey-900 transition duration-300 rounded-2xl"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -81,40 +82,71 @@
                   clip-rule="evenodd"
                 ></path>
               </svg>
-              Book a free call
+              <a href="mailto: codepawn@icloud.com"
+              >메일로 문의하기(Send Email)</a
+            >
             </button>
           </div>
         </div>
 
-        <div class="items-center justify-end hidden col-span-1 md:flex">
+        <div class="items-center justify-center col-span-1 flex">
           <img
             class="w-4/5 rounded-md"
-            src="https://raw.githubusercontent.com/Loopple/loopple-public-assets/main/motion-tailwind/img/header-1.png"
+            src="./images/bubble_strikers_1_2.jpg"
             alt="header image"
           />
         </div>
       </div>
-    </div>
-    <div class="flex flex-wrap -mx-3 my-5">
-      <div class="w-full max-w-full sm:w-3/4 mx-auto text-center">
-        <p class="text-sm text-slate-500 py-1">
-          Tailwind CSS Component from
-          <a
-            href="https://www.loopple.com/theme/motion-landing-library?ref=tailwindcomponents"
-            class="text-slate-700 hover:text-slate-900"
-            target="_blank"
-            >Motion Landing Library</a
-          >
-          by
-          <a
-            href="https://www.loopple.com"
-            class="text-slate-700 hover:text-slate-900"
-            target="_blank"
-            >Loopple Builder</a
-          >.
-        </p>
+
+      <!-- cards section -->
+      <div class="flex justify-center p-5">
+        <a
+          href="https://interpret.itch.io/melonia"
+          class="flex w-64 flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+          target='_blank'
+        >
+          <img
+            class="object-cover w-full rounded-t-lg h-48 md:w-48 md:rounded-none md:rounded-l-lg"
+            src="./images/melonia_2_1.jpg"
+            alt=""
+          />
+          <div class="flex flex-col justify-between p-4 leading-normal">
+            <h5
+              class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+            >
+              Melonia
+            </h5>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              Puzzle game with cute characters and a story.
+            </p>
+          </div>
+        </a>
+
+        <a
+          href="https://interpret.itch.io/bubble-strikers"
+          class="flex w-64 flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+          target='_blank'
+        >
+          <img
+            class="object-cover w-full rounded-t-lg h-48"
+            src="./images/bubble_strikers_1_1.jpg"
+            alt=""
+          />
+          <div class="flex flex-col justify-between p-4 leading-normal">
+            <h5
+              class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+            >
+              Bubble strikers
+            </h5>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              Shooting game with massive bubbles.
+            </p>
+          </div>
+        </a>
+        
       </div>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.js"></script>
   </body>
-  <html></html>
 </html>
